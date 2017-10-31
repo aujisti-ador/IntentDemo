@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_weight="1"
+        android:layout_width="90dp"
+        android:layout_height="0dp"
+        android:src="@drawable/flag"
+        android:layout_gravity="center"/>
+
+
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/dhaka"
+        android:textColor="#FFF"
+        android:layout_marginTop="10dp"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:text="Dhaka"
+        android:background="@drawable/button_style"
+        android:padding="10dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:background="@drawable/button_style"
+        android:layout_weight="1"
+        android:id="@+id/chi"
+        android:layout_marginTop="10dp"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:textColor="#FFF"
+        android:text="Chittagong"
+        android:padding="10dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:textColor="#FFF"
+        android:background="@drawable/button_style"
+        android:layout_weight="1"
+        android:id="@+id/raj"
+        android:layout_marginTop="10dp"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:text="Rajshahi"
+        android:padding="10dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:textColor="#FFF"
+        android:background="@drawable/button_style"
+        android:layout_weight="1"
+        android:id="@+id/bar"
+        android:layout_marginTop="10dp"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:text="Barishal"
+        android:padding="10dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:textColor="#FFF"
+        android:background="@drawable/button_style"
+        android:layout_weight="1"
+        android:id="@+id/mymen"
+        android:layout_marginTop="10dp"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:text="Mymensingh"
+        android:padding="10dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:textColor="#FFF"
+        android:background="@drawable/button_style"
+        android:layout_weight="1"
+        android:id="@+id/khulna"
+        android:layout_marginTop="10dp"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:text="Khulna"
+        android:padding="10dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:textColor="#FFF"
+        android:background="@drawable/button_style"
+        android:layout_weight="1"
+        android:id="@+id/sylhet"
+        android:layout_marginTop="10dp"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:text="Sylhet"
+        android:padding="10dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:textColor="#FFF"
+        android:background="@drawable/button_style"
+        android:layout_weight="1"
+        android:id="@+id/rang"
+        android:layout_marginTop="10dp"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:text="Rangpur"
+        android:padding="10dp"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
